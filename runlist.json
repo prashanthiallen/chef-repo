@@ -1,0 +1,3 @@
+{
+  "run_list" : ["recipe[deploy_tomcat_war]","recipe[deploy_tomcat_war::tomcat]"]
+}
